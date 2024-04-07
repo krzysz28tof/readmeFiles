@@ -133,7 +133,7 @@ c (confirm each replace) <br>
 (list buffers)
 
 - % : buffer in current window
-- # : Alternate buffer (last file edited in current window)
+- \# : Alternate buffer (last file edited in current window)
 - a : Acitve buffer
 - h : hidden buffer (unsaved changes, not displayed in any window)
 - u : unlisted buffer (not open in vim, but exists in cwd)
