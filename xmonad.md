@@ -1,9 +1,6 @@
 # xmonad Window Manager
 
 > Configured on Arch Linux
-> requires xmonad and **xterm** packages
-
-*xterm is a terminal emulator for the X window server. Just a terminal for some display*
 
 xmonad on arch <br>
 <https://wiki.archlinux.org/title/Xmonad>
@@ -17,5 +14,21 @@ guided tour <br>
 configuration <br>
 <https://xmonad.org/TUTORIAL.html>
 
+Youtube Video Install <br>
+<https://www.youtube.com/watch?v=JmPLbZQRgas>
 
-xinit xmonad
+HiDPI <br>
+<https://wiki.archlinux.org/title/HiDPI>
+
+
+## Requirements
+- xorg-server, or xorg GROUP to be safe
+- lightdm (DM) & lightdm-gtk-greeter (for login)
+
+#### extras
+- nitrogen (wallpaper browser)
+- picom (compositor; animations transparent windows ..)
+- xmobar (status bar)
+- dmenu (searching things?)
+
+
