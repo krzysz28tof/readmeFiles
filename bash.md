@@ -29,6 +29,10 @@ PS1="[\u ~]$" <br>
 \e[ (start color scheme) <br>
 x;y (color pair) <br>
 \e[m (end color scheme) <br>
+
+## Bashrc
+source ~/.bashrc 
+(reloads bashrc)
 	
 ## Processes
 ps aux (list all processes) <br>
