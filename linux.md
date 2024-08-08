@@ -1,5 +1,7 @@
 # General Arch Info
 
+## neofetch / fastfetch
+- just a small, quick CLI tool to display system info
 
 
 <!-- Filesystem -->
@@ -13,6 +15,22 @@ In **/usr/bin** binary files are stored.
 In **/usr/sbin** binaries are stored which need *superuser (root)* privilages.
 
 In **/usr/local** files are stored, which aren't managed by the system packages.
+
+### IOS USB multiplexing
+**usbmuxd** is a library and a deamon that keeps trying to connect to IOS devices.
+
+sudo systemctl stop usbmuxd.service
+
+but it gets triggered by other services
+
+sudo systemctl list-dependencies usbmuxd.service
+
+instead, try: 
+usbmuxd -n 
+(equivalent to --disable-hotplug)
+
+this prevents from discovering devices automatically
+
 
 
 
@@ -72,3 +90,15 @@ if still logged in: <br>
 `Ctr + Alt + F2` (switch to desktop environment)
 
 `Ctr + Alt + F3` (switch to tty, teletypewriter, F1 to go back)
+
+### KDE
+
+`Meta ESC` (for system monitor)
+
+`Meta D` (peek at desktop)
+
+### Custom
+
+`Meta §` (focus taskbar)
+
+`Meta F1` (desktop 1)
