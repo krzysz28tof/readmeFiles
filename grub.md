@@ -13,3 +13,4 @@ GRUB_FONT=/boot/grub/fonts/Hack-Big.pf2
 
 #### update config
 grub-mkconfig -o /boot/grub/grub.cfg
+
