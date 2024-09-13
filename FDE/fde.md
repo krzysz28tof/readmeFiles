@@ -183,3 +183,6 @@ It's important to note that we will have to alter the initramfs stage, i.e. add 
 - sudo pacman -S gnome
 - systemctl enable gdm.service
 - localectl set-x11-keymap ch 
+- set your main monitor in settings of gnome,
+- then: cp ~/.config/monitors.xml ~gdm/.config/monitors.xml
+- chown gdm:gdm ~gdm/.config/monitors.xml
